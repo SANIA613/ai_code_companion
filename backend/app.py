@@ -6,7 +6,7 @@ app = Flask(__name__)
 CORS(app)
 
 # Initialize Gemini client
-client = genai.Client(api_key="AIzaSyAgO8TyTviqZpYe-xvA_nmyt6Xq3L1QH4c")  # <-- Replace with your key
+client = genai.Client(api_key="Add your api key ")  # <-- Replace with your key
 
 @app.route("/generate", methods=["POST"])
 def generate_code():
